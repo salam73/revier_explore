@@ -20,6 +20,7 @@ class FutureProviderPage extends ConsumerWidget {
   @override
   Widget build(BuildContext context, WidgetRef ref) {
     final suggestionRef = ref.watch(suggestionFutureProvider('1'));
+    print('refresh');
     return Scaffold(
       appBar: AppBar(
         backgroundColor: color,

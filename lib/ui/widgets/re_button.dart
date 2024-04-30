@@ -20,7 +20,7 @@ class ReButton extends StatelessWidget {
           width: MediaQuery.of(context).size.width, height: 50),
       child: ElevatedButton(
         style: ElevatedButton.styleFrom(
-          backgroundColor: color ?? Theme.of(context).colorScheme.primary,
+         // backgroundColor: color ?? Theme.of(context).colorScheme.primary,
           shape: RoundedRectangleBorder(
             borderRadius: BorderRadius.circular(0),
           ),

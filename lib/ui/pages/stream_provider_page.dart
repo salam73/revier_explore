@@ -24,7 +24,7 @@ class StreamProviderPage extends ConsumerWidget {
         title: const Text('Stream Provider'),
       ),
       body: Center(
-        child: streamValue.when(data: (int data) {
+        child: streamValue.when(data: ( data) {
           return Text(
             data.toString(),
             style: const TextStyle(fontSize: 30),
